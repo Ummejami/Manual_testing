@@ -61,20 +61,23 @@ Total Bugs Identified: 10
 ---
 
 ## Repository Structure
+
+```
 OpenCart-Manual-Testing
 │
 ├── TestCases
-│ └── TestCases.xlsx
+│   └── TestCases.xlsx
 │
 ├── BugReports
-│ └── BugReport.xlsx
+│   └── BugReport.xlsx
 │
 ├── TestPlan
-│ └── TestPlan.docx
+│   └── TestPlan.docx
 │
 ├── Screenshots
 │
 └── README.md
+```
 
 
 ---
