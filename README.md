@@ -64,10 +64,10 @@ Total Bugs Identified: 10
 ```
 OpenCart-Manual-Testing
 │
-├── Test Senario
+├── Test_Senario
 │   └── TestCases.xlsx
 │
-├── BugReport
+├── Bug_report
 │   └── BugReport.xlsx
 │
 ├── TestPlan
