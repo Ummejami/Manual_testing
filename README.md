@@ -33,9 +33,8 @@ The following modules were tested:
 This repository contains the following testing documents:
 
 - Test Plan
-- Test Cases
-- Bug Reports
-- Test Execution Results
+- Test Senario
+- Bug Reports 
 - Screenshots of identified bugs
 
 ---
@@ -65,10 +64,10 @@ Total Bugs Identified: 10
 ```
 OpenCart-Manual-Testing
 │
-├── TestCases
+├── Test Senario
 │   └── TestCases.xlsx
 │
-├── BugReports
+├── BugReport
 │   └── BugReport.xlsx
 │
 ├── TestPlan
