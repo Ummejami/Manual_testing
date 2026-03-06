@@ -1,4 +1,4 @@
-# OpenCart Manual Testing Project based on https://demo.opencart.com
+# OpenCart Manual Testing Project 
 
 ## Project Overview
 This project contains manual testing documentation for the demo e-commerce website of OpenCart.  
