@@ -81,13 +81,68 @@ OpenCart-Manual-Testing
 
 ---
 
-## Tools Used
+## Environment Setup
+- Operating System: Windows 10
+- Server: XAMPP
+- Application: OpenCart
+- Browser: Google Chrome
+- Database: MySQL
 
+## Installation Steps
+
+1. Download OpenCart from the official website.
+2. Extract the zip file.
+3. Copy the contents of the `upload` folder to:
+   C:\xampp\htdocs\opencart
+4. Start Apache and MySQL from XAMPP Control Panel.
+5. Create a database named `opencart_db` using phpMyAdmin.
+6. Open the browser and navigate to:
+   http://localhost/opencart
+7. Complete the installation wizard.
+
+## Configuration Fixes
+
+During installation, the following issues were identified and resolved:
+
+### Missing PHP Extensions
+The following extensions were disabled:
+- GD
+- ZIP
+
+Solution:
+Enabled them in `php.ini`:
+
+extension=gd  
+extension=zip
+
+### Missing Configuration Files
+The installer reported missing files:
+- config.php
+- admin/config.php
+
+Solution:
+Renamed the following files:
+
+config-dist.php → config.php  
+admin/config-dist.php → config.php
+
+## Testing Scope
+Manual testing was conducted on the following modules:
+- User Login
+- Product Search
+- Add to Cart
+- Checkout Process
+- Admin Login
+
+## Tools Used
+- Jira (for bug tracking)
+- Postman (API testing)
 - Microsoft Excel
 - Google Chrome
-- GitHub
+- GitHub (documentation and version control)
 
 ---
+
 
 ## Author
 
