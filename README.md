@@ -81,7 +81,7 @@ OpenCart-Manual-Testing
 
 ---
 
-## Environment Setup
+## Environment Setup (Somke Testing)
 - Operating System: Windows 10
 - Server: XAMPP
 - Application: OpenCart
@@ -135,11 +135,28 @@ Manual testing was conducted on the following modules:
 - Admin Login
 
 ## Tools Used
-- Jira (for bug tracking)
+- Jira (Bug tracking)
 - Postman (API testing)
+- Zephyr (Test case management)
 - Microsoft Excel
 - Google Chrome
 - GitHub (documentation and version control)
+
+## What I Have Done?
+*Agile Scrum Activities*
+- Project creation and environment selection in Jira
+- Invite people and made a team ,distribute roles
+- Create Backlog properties (version,epic)
+- Create story,story point,sprint,proirity
+- Adding subtask and create sprint life cycle
+
+*Test Management Activities(Zephyr)*
+- Test Case
+- Test Cycle
+- Update TestCase
+- Report Bugs
+- Report
+- Traceability Matrix
 
 ---
 
